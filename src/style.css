@@ -1,0 +1,334 @@
+html{
+    height: 100%;
+}
+body {
+    background: rgb(255,198,187);
+    background: linear-gradient(0deg, rgba(255,198,187,0.8897934173669468) 0%, rgba(172,208,195,0.9037990196078431) 100%);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+}
+/*WELCOME*/
+.welcome {
+    color: rgb(48, 114, 114);
+    margin: 1%;
+
+}
+.slogan {
+    color: #248881;
+    font-size: 80%;
+    margin: 0%;
+}
+.button-index {
+    background-color: #FFC6BB;
+    color: #E7827C;
+    font-weight: bold;
+    margin: 8%;
+    padding: 1% 5%; 
+    border-radius: 7px; 
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*LOGIN y SIGNUP*/
+.login {
+    color: rgb(48, 114, 114);
+    margin: 0%;
+}
+
+.containers-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-email {
+    color: rgb(48, 114, 114);
+    border-radius: 5px;
+    padding: 1% 5%;
+    display: block;
+    border-color: white;
+}
+
+.input-pass {
+    color: rgb(48, 114, 114);
+    border-radius: 5px;
+    padding: 1% 5%;
+    display: block;
+    margin: 1%;
+    border-color: white;
+}
+
+.button-indextwo {
+    background-color: #FFC6BB;
+    color: #E7827C;
+    font-weight: bold;
+    margin: 3%;
+    padding: 1% 5%; 
+    border-radius: 7px; 
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button-second {
+    background-color: #abcfc3;
+    color: #296662;
+    font-weight: bold;
+    margin: 0%;
+    padding: 1% 5%; 
+    border-radius: 7px; 
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.span-login{
+    color: rgb(48, 114, 114);
+}
+
+.signup {
+    color: rgb(48, 114, 114);
+    margin: 0%;
+}
+
+.button-third {
+    background-color: transparent;
+    color: #E7827C;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 2%;
+    padding: 1% 5%; 
+    border-radius: 7px; 
+    border: none;
+}
+
+/*HOME*/
+.logo {
+    justify-content: center;
+    }
+.log-out {
+    background: none; 
+    border: none;
+    padding: 0;
+}
+.logout-images {
+    width: 20%;
+    align-items: center;
+} 
+.title-home {
+    margin: 2%;
+    color: rgb(48, 114, 114);
+}
+.up {
+    display: inline-block;
+    margin: 10px;
+}
+.button-recipes {
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e68211;
+    color:rgba(227, 233, 233, 0.973);
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    width: 100px;
+    height: 100px;
+}
+.home-images {
+    width: 40px;
+    height: 40px;
+}
+.button-remedies {
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E7827C;
+    color:rgba(227, 233, 233, 0.973);
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    width: 100px;
+    height: 100px;
+    margin-left: 4px;
+}
+.button-habits {
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2f968f;
+    color:rgba(227, 233, 233, 0.973);
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+/* Wall */
+  
+.buttons-container {
+    display: flex;
+    align-items: center; 
+  }
+.logo-home {
+    width: 35%;
+}
+.logo-wall {
+    width:35%;
+}
+.button-home {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    
+}
+.image-home {
+    background-color: transparent;
+    width: 15%;
+    margin-left: 100%;
+}
+.logout-imagesWall {
+    width: 30%;
+    margin-right: 20%;
+} 
+.log-outWall {
+    background-color: transparent;
+    border: none;
+
+}
+.wallSectionInput {
+    display: contents;
+    align-content: center;
+}
+.inPost {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 5px;
+    color: rgb(48, 114, 114);
+    width: 60%;
+    height: 100px;
+    outline: 0px;
+}
+.post-message-style {
+    display: flex;
+    white-space: pre-line;
+    text-align: justify;
+    
+}
+.message-container {
+    padding: 15px 40px;
+}
+.input-title {
+    width: 60%;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    margin-right: 40%;
+    margin-left: 20%;
+    border-radius: 5px;
+    outline: 0px;
+    color: rgb(48, 114, 114);
+}
+.btn-img-post {
+    margin-left: 0%;
+    color: #296662;
+    background-color: rgb(127, 184, 184);
+    font-size: 13px;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 3px 5px;
+}
+.img-post {
+    width: 40%;
+}
+.select-type {
+    background-color: #ecb0ad;
+    color: rgb(48, 114, 114);
+    border: none;
+    border-radius: 5px;
+    margin-right: 8px;
+    padding: 3px;
+}
+.button-sendPost {
+    background-color: rgb(127, 184, 184);
+    color: rgb(48, 114, 114);
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+.post-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: rgb(48, 114, 114);
+}
+.post-style {
+    background-color: white;
+    height:auto;
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+    position: relative;
+}
+.button-edit {
+    background-color: white;
+    color:rgb(48, 114, 114);
+    border: none;
+    margin: 2%;
+}
+.button-delete {
+    background-color: white;
+    color: rgb(48, 114, 114);
+    border: none;
+    margin: 2%;
+    margin-right: 40%;
+}
+.img-like {
+    height: 20px;
+    width: 20px;
+    align-items: end;
+    margin: 2%;
+}
+.button-like {
+    background-color: transparent;
+    border: none;
+}
+.user-email {
+    text-align: left;
+    color: #E7827C;
+    font-size: 80%;
+}
+.input-edit {
+    border: none;
+    width: 70%;
+    height: 60px;
+    outline: 0px;
+    color: rgb(48, 114, 114);
+}
+@media screen and (max-width: 767px) {
+    .post-style {
+      width: 90%; 
+      margin-left: 5%; 
+      margin-right: 5%; 
+    }
+    .button-home,
+  .log-outWall {
+    margin-left: 2%;
+  }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

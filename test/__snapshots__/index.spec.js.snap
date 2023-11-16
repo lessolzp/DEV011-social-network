@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of signup 1`] = `
+<section>
+  <section>
+    
+        
+    <img
+      class="logo"
+      src="Images/logo-habitate.png"
+    />
+    
+        
+    <h1
+      class="signup"
+    >
+       Registrate 
+    </h1>
+    
+        
+    <form
+      class="containers-button"
+    >
+      
+             
+      <input
+        class="input-email"
+        id="email"
+        placeholder="Escribe tu correo"
+      />
+       
+             
+      <input
+        class="input-pass"
+        id="pass"
+        placeholder="Esribe tu contraseña"
+      />
+      
+            
+      <button
+        class="button-indextwo"
+        id="submit-sign-in"
+      >
+         Regístrarse 
+      </button>
+      
+        
+    </form>
+    
+        
+    <button
+      class="button-second"
+      id="go-google-s"
+    >
+       Registrate con Google 
+    </button>
+    
+        
+    <div>
+      
+            
+      <span
+        class="span-login"
+      >
+         ¿Ya tienes cuenta? 
+      </span>
+      
+            
+      <button
+        class="button-third"
+        id="go-login"
+      >
+         Inicia Sesión 
+      </button>
+      
+        
+    </div>
+    
+    
+  </section>
+</section>
+`;
